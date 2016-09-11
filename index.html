@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-indigo.css">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript and Dates</title>
+</head>
+
+
+<body>
+<div class="w3-container w3-section w3-border w3-round-xlarge w3-border-indigo">
+    <header class="w3-panel w3-text-indigo head" >
+        <h1>Demonstrating JavaScript Dates</h1>
+        <h4 id="thisday"></h4>
+    </header>
+</div>
+
+<div class="w3-container w3-section w3-border w3-round-xlarge w3-border-indigo">
+    <h4 class="head">Today is: <span id="todayis"> </span> </h4>
+    <hr>
+
+    <h3> Days left until we're EMPTY NESTERS!!</h3>
+    <p>Luke will start college (approx): <span id="lukeleaves"> </span> </p>
+    <p>We have only <span id = "daysleft"> </span> days left with kids at home.</p>
+    <hr>
+
+    <h3>How long have you been married?</h3>
+    <label for="datemarried">Date Married: </label>
+    <input type="text" id="datemarried"/>&nbsp;&nbsp;
+    <input type="button" id="submit" value="Submit"/>
+    <p>
+        <label>
+            <textarea name="married" cols="80" rows="1" readonly id="married"></textarea>
+        </label>
+    </p>
+</div>
+
+<script src="mydates.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+/* CSS Style file */
+
+.w3-container{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.w3-panel{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    background-image: url("lgrey005.jpg");
+    box-sizing: border-box;
+}
+
+h3,h4{
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: darkblue;
+}
+
+#married {
+    background-image: url("lgrey005.jpg");
+    border-width: 0;
+}
+
+#todayis,#lukeleaves,#daysleft {color: deeppink;}
+
+.head{
+    font-style:italic;
+    font-weight: bold;
+    text-align:center;
+}
